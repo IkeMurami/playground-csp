@@ -24,4 +24,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deploy
 
-The project is deployed with Github Pages' actions. 
+The project is deployed with Github Pages' actions (how you can [make it](https://medium.com/frontendweb/how-to-deploy-a-nextjs-app-to-github-pages-1de4f6ed762e)). 
