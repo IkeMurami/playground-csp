@@ -40,7 +40,7 @@ export default function Index() {
             csp: router.query.csp as string,
         }
         
-        setUrlPlayground(`${URL_PLAYGROUND}?${new URLSearchParams(query)}`)
+        setUrlPlayground(`${router.basePath}/${URL_PLAYGROUND}?${new URLSearchParams(query)}`)
         setPlaygroundView(true)
     }, [router.query])
 

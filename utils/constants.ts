@@ -18,5 +18,5 @@ export const TEXT_CSP_SETTING: string = [
     "object-src 'none'"
 ].join('; ') + ';'
 
-export const URL_PLAYGROUND: string = '/playground'
+export const URL_PLAYGROUND: string = 'playground'
 export const PLAYGROUND_IFRAME_ID: string = 'pg-iframe'
