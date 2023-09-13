@@ -59,7 +59,7 @@ export default function Index() {
                 <PGPwn iframeRef={iframeRef} />
                 <iframe ref={iframeRef} src={urlPlayground} width={'500px'}></iframe>
             </div>
-            <button className={styles['btn-back']} onClick={backButtonHandler}>Back to home</button>
+            <button className={styles['btn-back']} onClick={backButtonHandler}>Back home</button>
         </div>
     </>
 
