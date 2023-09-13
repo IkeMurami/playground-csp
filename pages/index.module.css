@@ -1,0 +1,37 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+
+  background-color: rgba(240, 170, 73, 0.439);
+}
+
+.setting {
+  display: flex;
+  width: 70%;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-back {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 0;
+
+    line-height: 40px;
+
+    border: 1px solid rgba(240, 170, 73, 0.803) !important;
+    background-color: white;
+    color: rgba(134, 81, 5, 0.803) !important;
+}

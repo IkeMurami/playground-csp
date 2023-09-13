@@ -1,0 +1,20 @@
+.setting {
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payload-href, .payload-js, .payload-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-payload {
+    width: 60%;
+    margin-left: auto;
+    margin-right: 20px;
+
+    background-color: rgba(188, 235, 80, 0.676) ;
+    border: 1px solid rgba(137, 193, 8, 0.676) ;
+}
