@@ -1,4 +1,7 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    // Add basePath
+    basePath: '/playground-csp',
+}
 
 module.exports = nextConfig
